@@ -1,0 +1,123 @@
+body {
+    font-family:  Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column; /*Esta linea de codigo mantiene las secicones en columnas */
+    align-items: center;
+}
+
+.seccion {
+    width: 100%;
+}
+
+#destacados {
+    background-color: rgb(54, 123, 54); /* Color de fondo verde */
+    color: white;
+    padding: 20px ;
+    width: 100%;
+}
+
+#destacados h2{
+    text-shadow: 0 0 3px white;
+}
+
+#destacados .contenedor {
+    display: flex;
+    flex-direction: row; /*esta liena de codigo alinea el texto ene el centro (producto)*/
+}
+
+.producto {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+
+#destacados .producto{
+    width: 50%; /* 2 columnas */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 0, 0.3);
+}
+
+#destacados .contenedor > div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    width: 50%; /* 2 columnas */
+    color: black;
+}
+
+#ofertas {
+    background-color:  rgb(255, 201, 25); /* Color de fondo amarillo */
+    width: 100%;
+    padding: 20px;
+    
+}
+
+#ofertas h2{
+    text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A; 
+}
+
+
+#ofertas .contenedor {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#ofertas .producto {
+    width: 33.3%;
+    box-shadow: 4px 8px; 
+}
+
+
+
+#ofertas .contenedor > div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    width: 33.3%; }
+
+#disponible {
+    background-color: #b54139; 
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+#disponible .producto{
+    width: 25%; 
+    border: solid 5px coral; 
+    box-shadow: 4px 8px #D46A6A; 
+}
+
+#disponible .contenedor {
+    display: flex;
+    flex-direction: row;
+    color:black;
+}
+
+#disponible .contenedor > div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px coral;
+    background-color: white;
+    width: 25%; /*para 4 columnas */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}

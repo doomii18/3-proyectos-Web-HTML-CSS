@@ -1,0 +1,112 @@
+body {
+	margin-left: 15%;
+	font-family: Verdana;
+	width: 70%;
+	color: #605B56;
+}
+
+header {
+    padding: 3px 10px;
+    margin-bottom: 5px;
+    background: -webkit-linear-gradient(left, #5CA861, #BADFBC);
+    background: -o-linear-gradient(right, #5CA861, #BADFBC);
+    background: -moz-linear-gradient(right, #5CA861, #BADFBC);
+    background: linear-gradient(to right, #5CA861, #BADFBC);
+    border-radius: 10px;
+    text-align: left;
+	font-size: 1.4em;
+}
+
+header h1{
+	padding-left: 10px;
+}
+
+#menu-principal ul {
+	float: left;
+	width: 200px;
+	padding: 0;
+	margin: 10px;
+}
+
+
+#contenido {
+	margin-left: 200px;
+	padding: 2px;
+	color: black;
+	background-size: cover;
+	background-position: center;
+	background-image: url(imagenes/imagen3.jpg);
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 0px;
+    font-size: 1.6em;/*text*/
+}
+
+#menu-principal ul li {
+	padding: 10px;
+	list-style-type: none;
+	font-size: 1.4em;
+	margin-bottom: 18px;
+}
+
+.texto-contenedor{
+	position: relative;
+}
+
+.texto-contenedor li{
+	margin-bottom: 10px; /* Espaciado entre los elementos de la lista */
+    font-size: 1.1em; 
+}
+
+.imagen-fondo {
+    width: 100%;
+    height: 60%;
+    border-radius: 6px ;
+    padding-bottom: 5%;
+}
+
+
+
+.contenido-texto {
+    display: flex;
+    align-items: flex-start; /* Alinear el texto y la imagen en la parte superior */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2; /*hace que la imagen quede abajo del texto*/
+	padding: 10px;
+}
+
+.texto-contenedor ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0px;
+    padding: 0;
+    
+
+}
+
+.texto-contenedor li {
+    margin-bottom: 10px; /* Espaciado entre los elementos de la lista dentro de la imagen */
+    border-radius: 6px; /* Borde redondeado en el contenedor */
+}
+
+.imagen-pequena {
+    border: solid 2px #605B56; 
+    margin: 3px; 
+    border-radius: 4px;
+    max-width: 1000%; 
+    height: auto; 
+}
+footer {
+	clear: both;
+	border-top: solid 2px #605B56;
+	padding-top: 10px;
+	margin-top: 15px;
+	text-align: center;
+    font-size: 2em;
+}
+
+#contenido p img {
+	float: right;
+}
